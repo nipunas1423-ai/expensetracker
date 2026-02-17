@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8091/api/expenses";
+const API_URL = "https://expensetracker-rq6o.onrender.com/api/expenses";
 
 // ✅ Get logged-in email
 const EMAIL = localStorage.getItem("userEmail");
@@ -246,3 +246,4 @@ function renderChart(summary) {
         }
     });
 }
+
